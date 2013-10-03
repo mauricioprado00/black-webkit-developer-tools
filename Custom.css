@@ -16,7 +16,7 @@
   border-left: 1px solid rgb(120,120,120) !important;
 }
 
-#-webkit-web-inspector .split-view-contents-second {
+#-webkit-web-inspector .split-view-contents-second, #-webkit-web-inspector .split-view-contents-first {
   background: #222 !important;
   border-color: rgba(255,255,255,0.15) !important;
   color: #e5e5e5;
@@ -858,7 +858,7 @@ body.compact .help-window-outer {
 
 #settings-screen .help-window-main, #drawer-contents .help-window-main, .tabbed-pane-content, .tabbed-pane-content > div,
 .navigator-tabbed-pane .navigator-container , .resource-headers-view.visible{
-    background-color: black!important;
+    background-color: #222222!important;
 }
 
 .data-grid table.data {
@@ -867,6 +867,18 @@ body.compact .help-window-outer {
 
 .network-item {
     color: white;
+}
+
+.tabbed-pane-header-tab{
+	background-color:#737373;
+}
+
+.tabbed-pane-header-tab.selected {
+	background-color: black!important;
+}
+div.tabbed-pane-header {
+    background: none!important;
+    background-color: transparent!important;
 }
 
 /* Scrolls */
