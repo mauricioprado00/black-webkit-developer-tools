@@ -868,3 +868,11 @@ body.compact .help-window-outer {
 .network-item {
     color: white;
 }
+
+.tabbed-pane-header-tab{
+	background-color:#737373;
+}
+
+.tabbed-pane-header-tab.selected {
+	background-color: black!important;
+}
