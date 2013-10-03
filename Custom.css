@@ -356,16 +356,12 @@ body.inactive #-webkit-web-inspector .pane-title-button {
 #-webkit-web-inspector #console-messages a:hover {
   color: #999 !important;
 }
-#-webkit-web-inspector .console-message {
-  color: #F1F1F1 !important;
-}
+
 #-webkit-web-inspector .console-message,
 #-webkit-web-inspector .console-user-command {
   border-bottom: 1px solid #444 !important;
 }
-#-webkit-web-inspector .console-user-command > .console-message-text {
-  color: #C4C7C6 !important;
-}
+
 #-webkit-web-inspector .console-formatted-number {
   color: #db925f !important;
 }
@@ -403,9 +399,7 @@ body.inactive #-webkit-web-inspector .pane-title-button {
     color: #f77 !important;
   }
 }
-#-webkit-web-inspector .console-message-text {
-  color: #c5c8c6;
-}
+
 #-webkit-web-inspector .console-error-level .console-message-text .title {
   color: #f66 !important;
   -webkit-animation-name: webkit-error-level;
@@ -954,4 +948,24 @@ div.tabbed-pane-header {
     border-radius: 5px;
     background: rgba(51,51,51,1); 
     -webkit-box-shadow: inset 0 0 6px rgba(249,140,74,0.5); 
+}
+
+/* console mainframe hipster style */
+#-webkit-web-inspector #console-prompt, .console-formatted-null, .console-formatted-undefined {
+    color: #00FF00!important;
+}
+#-webkit-web-inspector .console-user-command > .console-message-text {
+    
+}
+#-webkit-web-inspector .console-message .console-message-text {
+  font-family: courier new!important;
+}
+#-webkit-web-inspector .console-message-text {
+  color: #00FF00;
+}
+.auto-complete-text, .editing .auto-complete-text {
+    color: white!important;
+}
+.console-debug-level .console-message-text {
+ color: #006600!important; 
 }
