@@ -890,6 +890,46 @@ div.tabbed-pane-header {
     background-color: transparent!important;
 }
 
+.network-log-grid.data-grid th, 
+.network-log-grid.data-grid th.sort-descending, 
+.network-log-grid.data-grid th.sort-ascending {
+    background: none!important;
+	background-color: rgba(34,34,34,99.92)!important;
+    
+}
+.network-header-subtitle {
+    color: rgb(200,200,200)!important;
+}
+.data-grid th {
+    border-color: rgb(104,104,104)!important;
+    border-bottom: 1px solid rgb(105,55,0)!important;
+}
+.data-grid td {
+    border-color: rgb(105, 55, 0)!important;
+}
+
+/*arrows*/
+.data-grid th.sort-ascending > div::after, .data-grid th.sort-descending > div::after {
+    margin-top: 5px;
+    background: none!important;
+    border-bottom: none;
+    border-top: 7px solid rgba(255,165,0,1);
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    width: 0px!important;
+    height: 0px!important;
+    opacity: 1!important;
+}
+.data-grid th.sort-ascending > div::after {
+    border-top: none;
+    border-bottom: 7px solid rgba(255,165,0,1);
+}
+
+.network-log-grid.data-grid tr.filler {
+    background-color: #1D1F21!important;
+    
+}
+
 /* Scrolls */
 
 *::-webkit-scrollbar {
