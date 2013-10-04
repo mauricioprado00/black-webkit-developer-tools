@@ -75,10 +75,12 @@
 .settings-tab .help-block p>label:hover {
     color: yellow!important;
 }
-
+#-webkit-web-inspector .tabbed-pane {
+  background-color: #1d1f21;
+}
 #-webkit-web-inspector .tabbed-pane-header {
   /*background: #444 !important; feo*/
-  border-color: rgba(255,255,255,0.15) !important;
+  border-color: rgba(255,5,255,1) !important;
 }
 #-webkit-web-inspector .tabbed-pane-header * {
   text-shadow: none !important;
@@ -895,6 +897,17 @@ body.compact#-webkit-web-inspector .help-window-outer {
 	background-color: rgba(34,34,34,99.92)!important;
     
 }
+
+#-webkit-web-inspector .network-log-grid.data-grid,
+#-webkit-web-inspector .network-timeline-grid .resources-divider-label,
+#-webkit-web-inspector .network-graph-label,
+#-webkit-web-inspector select {
+  color: white!important;
+}
+#-webkit-web-inspector select option {
+  color: black;
+}
+
 #-webkit-web-inspector .network-header-subtitle {
     color: rgb(200,200,200)!important;
 }
